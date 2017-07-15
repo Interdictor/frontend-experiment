@@ -6,4 +6,6 @@ services:
       context: '.'
     container_name: frontend_experiment
     ports:
-        - 3000:3000
+      - 3000:3000
+    volumes:
+      - .:/opt/frontend_experiment
