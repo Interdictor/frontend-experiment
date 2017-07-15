@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  frontend_server:
+    build:
+      context: '.'
+    container_name: frontend_experiment
+    ports:
+        - 3000:3000
