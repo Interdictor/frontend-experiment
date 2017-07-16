@@ -4,27 +4,26 @@ body {
 }
 
 .expositor {
-    display: flex;
+    background-color: #999999;
+    max-width: 1050px;
+    min-height: 50px;
+    margin: 40px auto 0 auto;
 }
 
 .expositor__organ {
     background-color: #bbbbbb;
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    flex: 6;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 280px;
+    box-sizing: border-box;
 }
 
-.expositor__organ--first {
-}
-.expositor__organ--second {
-}
-.expositor__organ--third {
-}
-.expositor__organ--fourth {
-}
-.expositor__organ--fifth {
-}
-.expositor__organ--sixth {
+@media (min-width: 900px) {
+    .expositor {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
+.expositor__organ:nth-child(1) {background-color: #ffffff;}
