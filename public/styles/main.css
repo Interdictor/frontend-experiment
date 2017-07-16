@@ -4,13 +4,12 @@ body {
 }
 
 .expositor {
-    background-color: #999999;
     max-width: 1050px;
     min-height: 50px;
     margin: 40px auto 0 auto;
 }
 
-.expositor__organ {
+.expositor__module {
     background-color: #bbbbbb;
     margin-bottom: 20px;
     width: 320px;
@@ -18,7 +17,7 @@ body {
     box-sizing: border-box;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
     .expositor {
         display: flex;
         justify-content: space-between;
@@ -26,4 +25,15 @@ body {
     }
 }
 
-.expositor__organ:nth-child(1) {background-color: #ffffff;}
+@media (max-width: 1000px) {
+    .expositor__module {
+        margin: 10px auto;
+    }
+}
+
+.expositor__module:nth-child(1) {background-color: #ffffff;}
+.expositor__module:nth-child(2) {background-color: #eeeeee;}
+.expositor__module:nth-child(3) {background-color: #cccccc;}
+.expositor__module:nth-child(4) {background-color: #bbbbbb;}
+.expositor__module:nth-child(5) {background-color: #aaaaaa;}
+.expositor__module:nth-child(6) {background-color: #999999;}
