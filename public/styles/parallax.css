@@ -1,0 +1,14 @@
+.regular {
+    height: 60vh;
+    width: 100%;
+}
+
+.parallax-dictor {
+    height: 30vh;
+    width: 100%;
+    background-image: url('../images/test.jpg');
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
