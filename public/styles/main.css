@@ -10,8 +10,21 @@ body {
 
 .header {
     background-color: #000;
-    width: 100%;
-    height: 100px;
+    height: 50px;
+    display: flex;
+}
+
+.header__logo {
+    background-image: url('../images/test_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    flex: 1;
+}
+
+.header__menu {
+    width: 70%;
+    height: auto;
 }
 
 .expositor {
@@ -36,7 +49,8 @@ body {
 
 @media (max-width: 1000px) {
     .expositor__module {
-        margin: 10px auto;
+        margin-top: 10px;
+        width: 100%;
     }
 }
 
