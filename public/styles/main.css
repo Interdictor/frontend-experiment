@@ -3,12 +3,9 @@ body {
     background-color: #777777;
 }
 
-.wrapper {
-    max-width: 1050px;
-    margin: 0 auto;
-}
-
 .header {
+    margin: 0 auto;
+    max-width: 78%;
     background-color: #000;
     height: 50px;
     display: flex;
@@ -18,7 +15,7 @@ body {
     background-image: url('../images/test_logo.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: 70%;
     flex: 1;
 }
 
@@ -28,18 +25,20 @@ body {
 }
 
 .expositor {
+    margin: 0 auto;
     margin-top: 20px;
+    max-width: 78%;
 }
 
 .expositor__module {
     background-color: #bbbbbb;
     margin-bottom: 20px;
-    width: 320px;
+    width: 400px;
     height: 280px;
     box-sizing: border-box;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 850px) {
     .expositor {
         display: flex;
         justify-content: space-between;
@@ -47,9 +46,13 @@ body {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 850px) {
     .expositor__module {
         margin-top: 10px;
+        width: 100%;
+    }
+
+    .expositor {
         width: 100%;
     }
 }
