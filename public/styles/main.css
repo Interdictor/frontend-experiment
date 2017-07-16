@@ -1,4 +1,30 @@
 body {
     color: #aaaaaa;
-    background-color: #000000;
+    background-color: #777777;
 }
+
+.expositor {
+    display: flex;
+}
+
+.expositor__organ {
+    background-color: #bbbbbb;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    flex: 6;
+}
+
+.expositor__organ--first {
+}
+.expositor__organ--second {
+}
+.expositor__organ--third {
+}
+.expositor__organ--fourth {
+}
+.expositor__organ--fifth {
+}
+.expositor__organ--sixth {
+}
+
