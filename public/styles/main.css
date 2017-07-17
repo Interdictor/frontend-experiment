@@ -24,8 +24,9 @@ body {
 
 .footer {
     background-color: #000;
+    max-width: 78%;
     height: 70px;
-    display: flex;
+    margin: 0 auto;
 }
 
 .expositor {
@@ -38,7 +39,7 @@ body {
 .expositor__module {
     background-color: #bbbbbb;
     margin-bottom: 20px;
-    width: 400px;
+    width: 360px;
     height: 280px;
     box-sizing: border-box;
 }
