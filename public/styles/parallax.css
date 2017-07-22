@@ -4,10 +4,30 @@
 }
 
 .parallax-dictor {
-    height: 30vh;
+    height: 60vh;
     width: 100%;
     background-image: url('../images/test.jpg');
     background-attachment: fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.parallax-dictor--middle {
+    height: 50vh;
+    width: 100%;
+    background-image: url('../images/test_2.jpg');
+    background-attachment: fixed;
+    background-position: 0 200px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.parallax-dictor--last {
+    height: 50vh;
+    width: 100%;
+    background-image: url('../images/test.jpg');
+    background-attachment: fixed;
+    background-position: 0 200px;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
