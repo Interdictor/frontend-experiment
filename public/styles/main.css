@@ -5,7 +5,7 @@ body {
 
 .header {
     margin: 0 auto;
-    max-width: 78%;
+    width: 78%;
     background-color: #000;
     height: 50px;
     display: flex;
@@ -19,12 +19,16 @@ body {
 }
 .header__menu {
     width: 70%;
-    height: auto;
+    font-family: arial;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 2.5em;
+    font-size: 120%;
 }
 
 .footer {
     background-color: #000;
-    max-width: 78%;
+    width: 78%;
     height: 70px;
     margin: 0 auto;
 }
@@ -33,7 +37,7 @@ body {
     margin: 0 auto;
     max-width: 1000px;
     margin-top: 20px;
-    max-width: 78%;
+    width: 78%;
 }
 
 .expositor__module {
@@ -60,7 +64,21 @@ body {
     }
 
     .expositor {
-        width: 100%;
+        width: 95%;
+    }
+
+    .header {
+        width: 95%;
+    }
+
+    .footer {
+        width: 95%;
+    }
+
+    .header__menu {
+        font-size: 80%;
+        padding-right: 20px;
+        line-height: 4em;
     }
 }
 
