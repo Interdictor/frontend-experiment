@@ -1,34 +1,28 @@
-.regular {
-    height: 60vh;
+.base-parallax {
     width: 100%;
-}
-
-.parallax-dictor {
-    height: 60vh;
-    width: 100%;
-    background-image: url('../images/test.jpg');
     background-attachment: fixed;
-    background-size: 100% auto;
     background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
-.parallax-dictor--middle {
-    height: 50vh;
-    width: 100%;
+.parallax--first {
+    background-image: url('../images/test.jpg');
+    padding-bottom: 35%;
+}
+
+.parallax--second {
     background-image: url('../images/test_2.jpg');
-    background-attachment: fixed;
-    background-position: 0 200px;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    padding-bottom: 25%;
+    background-position: 0 60px;
 }
 
-.parallax-dictor--last {
-    height: 50vh;
-    width: 100%;
+.parallax--third {
     background-image: url('../images/test.jpg');
-    background-attachment: fixed;
-    background-position: 0 200px;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    padding-bottom: 25%;
 }
 
+@media (max-width: 1100px) {
+    .parallax--third {
+        background-position: 0 400px;
+    }
+}
