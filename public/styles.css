@@ -1,0 +1,25 @@
+body {
+    background-color: #333;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.right {
+    background-color: #555;
+    max-width: 500px;
+    height: 300px;
+    flex: 1;
+}
+
+.left {
+    background-color: #666;
+    max-width: 500px;
+    height: 300px;
+    flex: 1;
+}
+
+.independent-scroll {
+    overflow: auto;
+}
