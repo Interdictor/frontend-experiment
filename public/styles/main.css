@@ -13,7 +13,7 @@ body {
     top: 0;
 }
 .header__logo {
-    background-image: url('../images/test_logo.png');
+    background-image: url('../images/logo.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70%;
