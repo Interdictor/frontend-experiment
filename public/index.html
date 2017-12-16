@@ -1,41 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>frontend</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./styles/reset.css">
-    <link rel="stylesheet" type="text/css" href="./styles/main.css">
-    <link rel="stylesheet" type="text/css" href="./styles/parallax.css">
-    <link rel="shortcut icon" href="./images/test_favicon.png">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <section class="header">
-        <div class="header__logo"></div>
-        <div class="header__menu">
-            <a>Portafolio</a>
-            <a>Contacto</a>
-        </div>
+    <!-- header>h1{creatia}+nav>ul>li{item$}*2 -->
+    <!-- section>h1.visually_hidden>nav>ul>li{category$}*9>a>span{categoría $} -->
+<header>
+    <h1>creatia</h1>
+    <nav>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+        </ul>
+    </nav>
+    <section id="portfolio">
+        <h1 class="visually_hidden">
+            <nav>
+                <ul class="grid">
+                    <li class="grid-column"><a href=""><span>categoría 1</span></a></li>
+                    <li class="grid-column"><a href=""><span>categoría 2</span></a></li>
+                    <li class="grid-column"><a href=""><span>categoría 3</span></a></li>
+                    <li class="grid-column"><a href=""><span>categoría 4</span></a></li>
+                    <li class="grid-column"><a href=""><span>categoría 5</span></a></li>
+                    <li class="grid-column"><a href=""><span>categoría 6</span></a></li>
+                    <li class="grid-column"><a href=""><span>categoría 7</span></a></li>
+                    <li class="grid-column"><a href=""><span>categoría 8</span></a></li>
+                    <li class="grid-column"><a href=""><span>categoría 9</span></a></li>
+                </ul>
+            </nav>
+        </h1>
     </section>
-    <section class="base-parallax parallax--first"></section>
-    <section class="separator"></section>
-    <section class="expositor">
-        <div class="expositor__module expositor__module--first"></div>
-        <div class="expositor__module expositor__module--second"></div>
-        <div class="expositor__module expositor__module--third"></div>
-        <div class="expositor__module expositor__module--first"></div>
-        <div class="expositor__module expositor__module--first"></div>
-        <div class="expositor__module expositor__module--first"></div>
-    </section>
-    <section class="separator"></section>
-    <section class="base-parallax parallax--second"></section>
-    <section class="about">
-        <div class="about__text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem I
-        </div>
-    </section>
-    <section class="mobile-separator"></section>
-    <section class="base-parallax parallax--third"></section>
-    <section class="footer">
-    </section>
+</header>
 </body>
 </html>
